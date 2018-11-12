@@ -1,6 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import './main.css';
+import { Elm } from './Main.elm';
+import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+Elm.Main.init({
+  node: document.getElementById('root')
+});
 
+registerServiceWorker();
