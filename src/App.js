@@ -1,11 +1,11 @@
 import React from 'react';
 import Elm from 'react-elm-components';
-import { Buttons } from './components/Buttons.elm';
+import { Hello } from './components/Hello.elm';
 
 function App() {
   return (
     <div>
-      <Elm src={Buttons} />
+      <Elm src={Hello} />
     </div>
   );
 }

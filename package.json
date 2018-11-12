@@ -4,19 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "start": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "weavel-inc team",
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
-    "react-elm-components": "^1.0.2",
-    "react-scripts": "2.0.5"
+    "react-elm-components": "^1.0.2"
   },
   "eslintConfig": {
     "extends": [
@@ -38,16 +35,23 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.0",
     "@babel/plugin-proposal-optional-chaining": "^7.0.0",
     "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
-    "customize-cra": "^0.2.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
     "elm-webpack-loader": "^5.0.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-flowtype": "^3.0.0",
     "eslint-plugin-react-hooks": "^0.0.0",
     "prettier": "^1.14.3",
-    "react-app-rewired": "^1.6.2"
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
   }
 }
