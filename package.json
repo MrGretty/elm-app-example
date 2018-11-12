@@ -15,6 +15,7 @@
   "dependencies": {
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
+    "react-elm-components": "^1.0.2",
     "react-scripts": "2.0.5"
   },
   "eslintConfig": {
@@ -41,6 +42,7 @@
     "@babel/plugin-proposal-optional-chaining": "^7.0.0",
     "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
     "customize-cra": "^0.2.0",
+    "elm-webpack-loader": "^5.0.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-flowtype": "^3.0.0",
